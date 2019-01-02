@@ -23,11 +23,17 @@
             <a href="#"><h1>Feedr</h1></a>
             <nav>
               <ul>
-                <li><a href="#">News Source: <span>Source Name</span></a>
+                <li><a href="#">News Source: <span>Pick one</span></a>
                   <ul>
-                      <li><a href="#">Source 1</a></li>
-                      <li><a href="#">Source 2</a></li>
-                      <li><a href="#">Source 3</a></li>
+                      <li class="news-select" id="associated-press"><a href="#">AP</a></li>
+                      <li class="news-select" id="reuters"><a href="#">Reuters</a></li>
+                      <li class="news-select" id="the-new-york-times"><a href="#">NYT</a></li>
+                      <li class="news-select" id="the-washington-post"><a href="#"WaPo</a></li>
+                      <li class="news-select" id="vice-news"><a href="#">Vice</a></li>
+                      <li class="news-select" id="politico"><a href="#">Politico</a></li>
+                      <li class="news-select" id="fox-news"><a href="#">Fox News</a></li>
+                      <li class="news-select" id="the-economist"><a href="#">The Economist</a></li>
+                      <li class="news-select" id="buzfeed"><a href="#">Buzfeed</a></li>
                   </ul>
                 </li>
               </ul>
@@ -39,6 +45,7 @@
             <div class="clearfix"></div>
           </section>
         </header>
+
         <div id="popUp" class="loader hidden">
           <a href="#" class="closePopUp">X</a>
           <div class="container">
@@ -49,60 +56,11 @@
             <a href="#" class="popUpAction" target="_blank">Read more from source</a>
           </div>
         </div>
+
         <section id="main" class="container">
-          <article class="article">
-            <section class="featuredImage">
-              <img src="images/article_placeholder_1.jpg" alt="" />
-            </section>
-            <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
-            </section>
-            <section class="impressions">
-              526
-            </section>
-            <div class="clearfix"></div>
-          </article>
-          <article class="article">
-            <section class="featuredImage">
-              <img src="images/article_placeholder_2.jpg" alt="" />
-            </section>
-            <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
-            </section>
-            <section class="impressions">
-              526
-            </section>
-            <div class="clearfix"></div>
-          </article>
-          <article class="article">
-            <section class="featuredImage">
-              <img src="images/article_placeholder_2.jpg" alt="" />
-            </section>
-            <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
-            </section>
-            <section class="impressions">
-              526
-            </section>
-            <div class="clearfix"></div>
-          </article>
-          <article class="article">
-            <section class="featuredImage">
-              <img src="images/article_placeholder_1.jpg" alt="" />
-            </section>
-            <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
-            </section>
-            <section class="impressions">
-              526
-            </section>
-            <div class="clearfix"></div>
-          </article>
         </section>
+
+        <button>CLICK</button>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
